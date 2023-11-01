@@ -249,7 +249,7 @@ form button img{
     position: relative;
     color: #fff;
 }
-label::after{
+.qus-list label::after{
     content: '+';
     font-size: 45px;
     font-family: auto;
@@ -275,4 +275,25 @@ input[type="radio"]{
 }
 .qus-list input[type="radio"]:checked + label::after{
     transform: rotate(135deg);
+}
+
+.sign-end-sec{
+    margin-top: 2.85rem;
+}
+.sign-sec{
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+.sign-sec small{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+}
+.sign-sec form{
+    padding-top: 0;
+}
+.sign-sec .form-wrapper{
+    width: 35%;
+    margin-right: 5px;
 }
