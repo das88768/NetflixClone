@@ -68,7 +68,7 @@ nav button{
     font-size: 0.7rem;
 }
 
-/* -------------header style---------------- */
+/* ----------------------------------header style------------------------------------ */
 .temp{
     display: flex;
     margin: 15% 0 0 23px;
@@ -166,10 +166,11 @@ form button img{
     margin-right: 10px;
 }
 
-/* -------------features---------------- */
+/* -------------------------------features---------------------------------- */
 .features{
     display: flex;
     padding: 50px 12%;
+    border-top: 6px solid rgb(35,35,35);
     justify-content: center;
     align-items: center;
 }
@@ -204,10 +205,11 @@ form button img{
     line-height: 1.3em;
 }
 
-/* -----------Frequently Asked Question Style-------------- */
+/* -------------------------Frequently Asked Question Style--------------------------- */
 .faq{
     display: flex;
     justify-content: center;
+    border-top: 6px solid rgb(35,35,35);
     align-items: center;
     padding: 40px 0;
     text-align: center;
@@ -277,6 +279,8 @@ input[type="radio"]{
     transform: rotate(135deg);
 }
 
+
+/* ----------------------------End sign-up form style--------------------------- */
 .sign-end-sec{
     margin-top: 2.85rem;
 }
@@ -296,4 +300,57 @@ input[type="radio"]{
 .sign-sec .form-wrapper{
     width: 35%;
     margin-right: 5px;
+}
+
+
+/* -----------------------------Footer Style------------------------------- */
+.footer{
+    padding: 50px 50px 10px 155px;
+    border-top: 6px solid rgb(35,35,35);
+    color: rgba(255,255,255,0.7);
+}
+.footer h2{
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+.footer-row{
+    display: flex;
+    flex-direction: row;
+}
+.footer-col{
+    display: flex;
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.footer-col a{
+    display: block;
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+.footer-row{
+    align-items: flex-start;
+    padding: 10px 0 0 0;
+}
+.end-lang-btn button{
+    color: #fff;
+    border-radius: 0.25rem;
+    padding: 5px 9px;
+    cursor: pointer;
+}
+.footer-org{
+    display: flex;
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 39px;
+    flex-direction: column;
+}
+.footer-con{
+    display: block;
+    color: rgba(255,255,255,0.7);
+    font-size: 12px;
+    margin-top: 1.5rem;
 }
