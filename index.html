@@ -1,83 +1,163 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.cdnfonts.com/css/netflix-font" rel="stylesheet">
-    </head>
-    <body>
-        <div class="header">
-            <nav>
-                <img class="logo" src="images/logo.png" alt="logo">
-                <div class="div-btn">
-                    <button class="lang-btn"><img class="svg-1" src="images/lang-svg.svg" alt=""> English <img class="togg-down" src="images/toggle-down.png" alt=""></button>
-                    <button class="sign-log-btn">Sign In</button>
-                </div>
-            </nav>
-            <div class="temp">
-                <div class="header-content">
-                    <h1>Enjoy big movies, hit series and more from ₹ 149.</h1>
-                    <p>Join today. Cancel anytime.</p>
-                    <p id="form-title">Ready to watch? Enter your email to create or restart your membership.</p>
-                    <form class="email-sinup">
-                        <div class="form-wrapper">
-                            <div class="full-input">
-                                <label for="email-input">Email address</label>
-                                <input id="email-input" type="email" required>
-                            </div>
+
+<head>
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/netflix-font" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <nav>
+            <img class="logo" src="images/logo.png" alt="logo">
+            <div class="div-btn">
+                <button class="lang-btn"><img class="svg-1" src="images/lang-svg.svg" alt=""> English <img
+                        class="togg-down" src="images/toggle-down.png" alt=""></button>
+                <button class="sign-log-btn">Sign In</button>
+            </div>
+        </nav>
+        <div class="temp">
+            <div class="header-content">
+                <h1>Enjoy big movies, hit series and more from ₹ 149.</h1>
+                <p>Join today. Cancel anytime.</p>
+                <p id="form-title">Ready to watch? Enter your email to create or restart your membership.</p>
+                <form class="email-sinup">
+                    <div class="form-wrapper">
+                        <div class="full-input">
+                            <label for="email-input">Email address</label>
+                            <input id="email-input" type="email" required>
                         </div>
-                        <button type="submit">Get Started <img src="images/started-arrow.svg" alt=""></button>
-                    </form>
-                </div>
+                    </div>
+                    <button type="submit">Get Started <img src="images/started-arrow.svg" alt=""></button>
+                </form>
             </div>
         </div>
+    </div>
 
-        <div class="features">
-            <div class="row">
-                <div class="text-col">
-                    <h2>Enjoy on your TV</h2>
-                    <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
-                </div>
-                <div class="img-col">
-                    <img src="images/feature-1.png" alt="tv">
-                </div>
+    <!-- Features Section -->
+    <div class="features">
+        <div class="row">
+            <div class="text-col">
+                <h2>Enjoy on your TV</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </div>
+            <div class="img-col">
+                <img src="images/feature-1.png" alt="tv">
             </div>
         </div>
+    </div>
 
-        <div class="features">
-            <div class="row">
-                <div class="img-col">
-                    <img src="images/feature-2.png" alt="mobile">
-                </div>
-                <div class="text-col">
-                    <h2>Download your shows to watch offline</h2>
-                    <p>Save your favourites easily and always have something to watch.</p>
-                </div>
+    <div class="features">
+        <div class="row">
+            <div class="img-col">
+                <img src="images/feature-2.png" alt="mobile">
+            </div>
+            <div class="text-col">
+                <h2>Download your shows to watch offline</h2>
+                <p>Save your favourites easily and always have something to watch.</p>
             </div>
         </div>
+    </div>
 
-        <div class="features">
-            <div class="row">
-                <div class="text-col">
-                    <h2>Watch everywhere</h2>
-                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
-                </div>
-                <div class="img-col">
-                    <img src="images/feature-3.png" alt="tv,mobile,tablet">
-                </div>
+    <div class="features">
+        <div class="row">
+            <div class="text-col">
+                <h2>Watch everywhere</h2>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="img-col">
+                <img src="images/feature-3.png" alt="tv,mobile,tablet">
             </div>
         </div>
+    </div>
 
-        <div class="features">
-            <div class="row">
-                <div class="img-col">
-                    <img src="images/feature-4.png" alt="childrens">
-                </div>
-                <div class="text-col">
-                    <h2>Create profiles for kids</h2>
-                    <p>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+    <div class="features">
+        <div class="row">
+            <div class="img-col">
+                <img src="images/feature-4.png" alt="childrens">
+            </div>
+            <div class="text-col">
+                <h2>Create profiles for kids</h2>
+                <p>Send children on adventures with their favourite characters in a space made just for them—free with
+                    your membership.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Frequently Asked Questions section -->
+    <div class="faq">
+        <div class="faq-row">
+            <div class="faq-col">
+                <h2>Frequently Asked Questions</h2>
+                <div class="qus">
+                    <ul class="qus-ul">
+                        <li class="qus-list">
+                            <input type="radio" name="accord" id="accord-1">
+                            <label for="accord-1">What is Netflix?</label>
+                            <div class="qus-ans">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="qus-list">
+                            <input type="radio" name="accord" id="accord-2">
+                            <label for="accord-2">How much does Netflix cost?</label>
+                            <div class="qus-ans">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="qus-list">
+                            <input type="radio" name="accord" id="accord-3">
+                            <label for="accord-3">Where can I watch?</label>
+                            <div class="qus-ans">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="qus-list">
+                            <input type="radio" name="accord" id="accord-4">
+                            <label for="accord-4">How do I cancel?</label>
+                            <div class="qus-ans">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="qus-list">
+                            <input type="radio" name="accord" id="accord-5">
+                            <label for="accord-5">What can I watch on Netflix?</label>
+                            <div class="qus-ans">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="qus-list">
+                            <input type="radio" name="accord" id="accord-6">
+                            <label for="accord-6">Is Netflix good for kids?</label>
+                            <div class="qus-ans">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
