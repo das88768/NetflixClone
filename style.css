@@ -251,9 +251,9 @@ form button img{
 }
 label::after{
     content: '+';
-    font-size: 34px;
+    font-size: 45px;
+    font-family: auto;
     position: absolute;
-    font-weight: 0;
     right: 20px;
     transition: transform 0s;
 }
