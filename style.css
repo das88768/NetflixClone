@@ -66,6 +66,10 @@ nav button{
     font-family: sans-serif;
     font-weight: 600;
     font-size: 0.7rem;
+    transition: background 0.3s ease;
+}
+.sign-log-btn:hover{
+    background: rgb(193, 17, 25);
 }
 
 /* ----------------------------------header style------------------------------------ */
@@ -159,6 +163,10 @@ form button{
     cursor: pointer;
     border-radius: 0.25rem;
     padding: 12px 14px;
+    transition: background 0.3s ease;
+}
+form button:hover{
+    background: rgb(193, 17, 25);
 }
 form button img{
     filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(312deg) brightness(108%) contrast(100%);
@@ -250,6 +258,9 @@ form button img{
     cursor: pointer;
     position: relative;
     color: #fff;
+}
+.qus-list label:hover{
+    background: rgb(65,65,65);
 }
 .qus-list label::after{
     content: '+';
